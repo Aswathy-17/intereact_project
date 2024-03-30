@@ -23,13 +23,26 @@
     z-index: -1;
 }
 
+.nav-logo {
+    height: 80%;
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    background-image: url("/logo-no-background.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    margin-left: 1vw;
+  }
+
 .name{
     font-size: 150px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
     z-index: 1;
-    color: white; 
+    color: rgb(166, 161, 161); 
     height: 100%;
     width: 100%;
     align-items: center;
@@ -41,7 +54,7 @@
 {
     height: 13vh;
     width: 100%;
-    background-color: rgb(44, 44, 44, 0.6);
+    background-color: rgba(52, 50, 50, 0.6);
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -73,8 +86,8 @@
 {
     text-decoration: none;
     color: white;
-    border: 2px solid black;
-    background-color: rgb(170, 170, 170, 0.5);
+    border: 2px solid rgb(250, 245, 245);
+    background-color: rgba(89, 86, 86, 0.5);
     border-radius: 100px;
     padding: 10px;
 }
@@ -98,7 +111,7 @@
 {
     height: 50vh;
     width: 60vw;
-    color: white;
+    color: rgb(228, 194, 194);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,7 +140,7 @@
 {
     height: 25vh;
     width: 40vw;
-    color: white;
+    color: rgb(237, 222, 222);
     margin-left: 70px;
     margin-top: 10px;
     font-family: "Comfortaa", monospace;
@@ -152,3 +165,14 @@
 {
     text-decoration: underline;
 }
+
+.footer-logo {
+    height: 80%;
+    width: 50%;
+    background-image: url("/logo-no-background.png");
+    background-position: right;
+    background-position-x: right;
+    background-position-y: right;
+    background-repeat: no-repeat;
+    background-size: 90%;
+  }

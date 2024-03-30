@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import './index.css';
 
+
+
 export default function HomePage(){
     return(
         <>
@@ -11,6 +13,9 @@ export default function HomePage(){
                     </video>
                 </div>
                 <div className="nav-bar">
+                    <div className="nav-logo">
+                        <div className="logo-img"></div>
+                    </div>
                     <div className="nav-links">
                         <div className="links">
                             <div className="randompic-link">
@@ -37,10 +42,12 @@ export default function HomePage(){
                 <div className="footer-section">
                     <div className="contacts">
                         <div className="contact-title">Contacts</div>
-                        <div>Phno : 987654321</div>
-                        <a>Instagram: abc_10</a>
-                        <a>gmail: abc@gmail.com</a>
+                        <div>PhoneNo : 9981678564</div>
+                        <a>LinkedIn : xyz12</a>
+                        <a>Instagram: xyz_12</a>
+                        <a>Gmail: xyz@gmail.com</a>
                     </div>
+                    <div className="footer-logo"></div>
                 </div>
             </div>
         </>
