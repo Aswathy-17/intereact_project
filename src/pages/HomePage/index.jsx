@@ -34,8 +34,8 @@ export default function HomePage(){
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Officia, nobis magnam itaque fuga asperiores tenetur quo accusantium iste, 
                             excepturi doloribus a! Quis aspernatur laboriosam numquam ea, natus velit fuga corporis, 
-                            repudiandae non recusandae quod incidunt? Alias magnam consequatur illum qui minus sit consectetur expedita ducimus iste et. 
-                            Nemo, repellendus doloribus.
+                            repudiandae non recusandae quod incidunt? Alias magnam consequatur illum qui minus sit consectetur 
+                            expedita ducimus iste et. 
                         </p>
                     </div>
                 </div>

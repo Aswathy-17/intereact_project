@@ -16,7 +16,7 @@ function Loginpage() {
   }
 
   function validateLogin() {
-    if (username == "Advaith" && password == "advaith") {
+    if (username == "Aswathy" && password == "aswathy") {
       alert("Success!");
       navigate("/");
     } else {
@@ -35,8 +35,8 @@ function Loginpage() {
         <div className="login-main-container">
           <div className="login-about">
             <p>
-              Please Login <br />
-              with your details!
+              Please Login with<br />
+              your details!
             </p>
           </div>
           <div className="login-container">
@@ -51,11 +51,11 @@ function Loginpage() {
                 <input
                   value={password}
                   onChange={handleChangePassword}
-                  placeholder="Password"
-                  type="text"
+                  placeholder=" Password"
+                  type="password"
                 />
                 <button type="button" onClick={validateLogin}>
-                  Submit!
+                  Submit
                 </button>
               </form>
             </div>
